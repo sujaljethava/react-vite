@@ -1,19 +1,12 @@
 import React from 'react'
-import Card from './Componets/Card'
+import Cardparent from './Componets/Cardparent'
+import Arr from './Componets/Arr'
 
 const App = () => {
   return (
     <>
-  <div className="card-parent">
-    <Card name = "Sujal Jethava" age = {21}/>
-    <Card name = "Harshi Gohil" age = {22}/>
-    <Card name = "Tina kava" age = {22}/>
-    <Card name = "Divyesh Jadav" age = {21}/>
-    <Card name = "Tulsi Rathod" age = {22}/>
-    <Card name = "Vivek Jadav" age = {20}/>
-    <Card name = "Vidhi Parmar" age = {20}/>
-  </div>
-
+      {/* <Cardparent/> */}
+      <Arr />
     </>
   )
 }
