@@ -12,7 +12,7 @@ const Arr = () => {
             age: 21
         },
         {
-            name: "Harshi",
+            name: "Vivek",
             age: 22
         }
     ]
