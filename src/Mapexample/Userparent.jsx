@@ -6,14 +6,14 @@ import userImage1 from "../assets/userimage2.png";
 const Userparent = () => {
     const userprofile = [
         {
-            userimage: userImage, // ✅ remove extra { }
+            userimage: "/userimage1.png", // ✅ remove extra { }
             name: "Sujal Jethava",
             role: "Frontend Developer",
             about: "Building UI with React",
             lorem: "Lorem ipsum dolor sit amet consectetur adipisicing elit."
         },
         {
-            userimage: userImage1,
+            userimage: "/userimage2.png",
             name: "Harshi Gohil",
             role: "UI & UX Designer",
             about: "Designing Interfaces",

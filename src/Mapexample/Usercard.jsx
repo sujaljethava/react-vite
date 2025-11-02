@@ -1,5 +1,4 @@
 import React from "react";
-import userImage from "../assets/userimage1.png"; // <-- correct relative path
 
 const Usercard = (props) => {
     return (
