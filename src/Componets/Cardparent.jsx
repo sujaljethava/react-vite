@@ -1,5 +1,6 @@
 import React from 'react'
-import Card from './Card'
+import Card from '../Componets/Card'
+import '../Componets/card.css'
 
 const Cardparent = () => {
     return (

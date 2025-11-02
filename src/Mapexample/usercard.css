@@ -1,0 +1,81 @@
+.usercard-main {
+  display: block;
+  width: 100%;
+}
+
+.container {
+  display: block;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0px 15px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.usercard-main .usercard-inner-main {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px -15px;
+}
+
+.usercard-main .usercard-inner-main .usercard-child {
+  width: 30%;
+  padding: 55px 0px;
+  box-sizing: border-box;
+  background-color: #292d41;
+  margin: 30px 15px;
+  border-radius: 15px;
+  gap: 10px;
+}
+
+.usercard-main .usercard-inner-main .usercard-child .usercard-inner-child .usercard-image {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.usercard-inner-child {
+  padding: 0px 18px;
+}
+
+.usercard-name {
+  color: #fff;
+  text-align: center;
+  padding: 10px 0px 0px 0px;
+  font-weight: bold;
+}
+
+.usercard-role {
+  color: #fff;
+  text-align: center;
+  font-weight: normal;
+  padding-bottom: 15px;
+  padding-top: 10px;
+}
+
+.usercard-about {
+  text-align: center;
+  color: #fff;
+}
+
+.usercard-lorem {
+  color: #fff;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.usercard-btn {
+  text-align: center;
+  padding-top: 15px;
+}
+
+.usercardbutton {
+  background: #33394b;
+  padding: 10px 20px;
+  border-radius: 21px;
+  border: none;
+  color: #fff;
+}

@@ -1,4 +1,5 @@
 import React from 'react'
+import '../Componets/card.css'
 
 const User = (T1) => {
     console.log(T1);

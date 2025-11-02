@@ -1,7 +1,7 @@
 import React from 'react'
 import Usercard from './Usercard'
 import userImage from "../assets/userimage1.png"; 
-import userImage1 from "../assets/userimage2.png"; 
+import '../Mapexample/Usercard.css'
 
 const Userparent = () => {
     const userprofile = [

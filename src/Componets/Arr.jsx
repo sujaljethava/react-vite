@@ -1,5 +1,6 @@
 import React from 'react'
 import User from './User'
+import '../Componets/card.css'
 
 //map method
 const Arr = () => {
