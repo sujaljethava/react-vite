@@ -3,6 +3,8 @@ import Cardparent from './Componets/Cardparent'
 import Arr from './Componets/Arr'
 import Userparent from './Mapexample/Userparent'
 import Exampletailwind from './Tailwind css/Exampletailwind'
+import BtnClickfunction from './Functions/BtnClickfunction'
+import Functions from './Functions/Functions'
 
 const App = () => {
   return (
@@ -13,7 +15,11 @@ const App = () => {
       {/* propes and map method project  */}
       {/* <Userparent/> */}
 
-      <Exampletailwind/> 
+      {/* <Exampletailwind/>  */}
+
+      {/* fucntion start */}
+      {/* <BtnClickfunction /> */}
+      <Functions/>
 
 
     </>
