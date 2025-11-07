@@ -5,6 +5,7 @@ import Userparent from './Mapexample/Userparent'
 import Exampletailwind from './Tailwind css/Exampletailwind'
 import BtnClickfunction from './Functions/BtnClickfunction'
 import Functions from './Functions/Functions'
+import Usestateone from './UseState/Usestateone'
 
 const App = () => {
   return (
@@ -19,8 +20,11 @@ const App = () => {
 
       {/* fucntion start */}
       {/* <BtnClickfunction /> */}
-      <Functions/>
+      {/* <Functions/> */}
 
+
+      {/* useState  */}
+      <Usestateone />
 
     </>
   )
