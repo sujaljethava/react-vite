@@ -6,6 +6,8 @@ import Exampletailwind from './Tailwind css/Exampletailwind'
 import BtnClickfunction from './Functions/BtnClickfunction'
 import Functions from './Functions/Functions'
 import Usestateone from './UseState/Usestateone'
+import UseStateAD from './UseState/UseStateAD'
+import UsestateNum from './UseState/UsestateNum'
 
 const App = () => {
   return (
@@ -24,7 +26,9 @@ const App = () => {
 
 
       {/* useState  */}
-      <Usestateone />
+      {/* <Usestateone /> */}
+      {/* <UseStateAD /> */}
+      <UsestateNum/>
 
     </>
   )
