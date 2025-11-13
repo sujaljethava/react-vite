@@ -8,6 +8,7 @@ import Functions from './Functions/Functions'
 import Usestateone from './UseState/Usestateone'
 import UseStateAD from './UseState/UseStateAD'
 import UsestateNum from './UseState/UsestateNum'
+import FormHandle from './FormHandler/FormHandle'
 
 const App = () => {
   return (
@@ -28,7 +29,10 @@ const App = () => {
       {/* useState  */}
       {/* <Usestateone /> */}
       {/* <UseStateAD /> */}
-      <UsestateNum/>
+      {/* <UsestateNum/> */}
+
+      {/* form FormHandle */}
+      <FormHandle />
 
     </>
   )
